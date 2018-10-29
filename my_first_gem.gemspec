@@ -7,16 +7,16 @@ Gem::Specification.new do |spec|
   spec.name          = "my_first_gem"
   spec.version       = MyFirstGem::VERSION
   spec.authors       = ["helijian"]
-  spec.email         = ["helijian@reocar.com"]
+  spec.email         = ["johnrazer2014@gmail.com"]
 
   spec.summary       = %q{Write a short summary, because Rubygems requires one.}
   spec.description   = %q{this my frist gem test}
-  spec.homepage      = "https://www.reocar.com"
+  spec.homepage      = "https://github.com/JohnRazer/my_first_gem"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
